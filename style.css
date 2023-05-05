@@ -1,0 +1,53 @@
+.filter-container {
+  text-align: center;
+  padding-bottom: 20px;
+}
+input {
+  margin: 20px auto;
+  display: block;
+  font-size: 1.4rem;
+  text-align: center;
+  transition: 0.2s;
+}
+input:focus {
+  border-radius: 30px;
+  background: rgb(238, 238, 238);
+}
+.range-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type="range"] {
+  width: 250px;
+  margin: 0 10px 10px 0;
+}
+.range-container span {
+  font-size: 1.2rem;
+  transform: translateY(-3px);
+}
+
+.countries-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
+  justify-content: center;
+}
+.card {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  background: black;
+  min-width: 350px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding: 30px 25px 30px;
+  margin: 10px;
+  max-height: 300px;
+}
+.card img {
+  max-width: 200px;
+  margin: 0 auto;
+}
